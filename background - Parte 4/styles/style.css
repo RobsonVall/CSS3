@@ -1,0 +1,12 @@
+body{
+    background: #FFFFFF url(../images/cfb.png) no-repeat 0px 0px / 400px;
+    
+    /*
+        background-color: #AAAAAA;
+        background-image: url(../images/cfb.png);
+        background-repeat: repeat-x;
+        background-position: 0px 0px;
+        background-size: 400px;
+    */
+
+}

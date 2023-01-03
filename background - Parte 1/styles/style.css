@@ -1,0 +1,16 @@
+body{
+    background-color: #888888;
+    background-image: url(../images/cfb.png), url(../images/logo-CSS3.png);
+    background-size: 200px, 100px;
+    background-repeat: no-repeat, repeat;
+    background-position: 200px 200px, 0px 0px;
+}
+
+p{
+    font-size: 30pt;
+    color: #FFFFFF;
+    background-color: #008800;
+    background-image: url(../images/marcador.png) ;
+    background-repeat: repeat-x;
+    background-position: 0px 8px;
+}

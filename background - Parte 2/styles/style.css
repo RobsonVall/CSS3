@@ -1,0 +1,21 @@
+#d1, #d2, #d3, #p1{
+    border: 15px dotted #000000;
+    padding: 50px;
+    background-image: url(../images/marcador.png);
+}
+
+#d1{
+    background-clip: border-box;
+}
+
+#d2{
+    background-clip: padding-box;
+}
+
+#d3{
+    background-clip: content-box;
+}
+
+#p1{
+    background-clip: padding-box;
+}
