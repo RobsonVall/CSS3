@@ -1,0 +1,4 @@
+p{
+    border: 30px solid;
+    border-image: url(../images/borda2.png) 20 round; /* round stretch*/
+}

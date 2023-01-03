@@ -1,0 +1,28 @@
+#p1, #p2, #p3{
+    width: 300px; /* largura */
+    height: 300px; /* Altura */
+    background-color: #DDDDDD; /* Cor de Fundo */
+    border: #000000 solid 20px;
+    /*
+        border-style: solid; 
+        border-width: 20px;
+        border-color: #000000;
+    */
+
+}
+
+#p1{
+    border: #000000 solid 20px;
+
+}
+
+#p2{
+    border: #000000 dotted 20px;
+
+}
+
+#p3{
+    border: #000000 dashed 20px;
+
+}
+
