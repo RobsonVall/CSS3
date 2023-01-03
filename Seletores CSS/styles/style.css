@@ -1,0 +1,24 @@
+/*p{
+    color: #FF0000;
+    font-size: 20pt;
+}
+
+#p1{
+    color: #0000FF;
+}
+
+.txt{
+    color: #008800;
+    font-size: 30pt;
+}*/
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: #FF0000;
+    font-size: 20pt;
+    font-weight: lighter;  /* tira o negrito */
+}
+
+.titulo {
+    color: #0000FF;
+}
+
