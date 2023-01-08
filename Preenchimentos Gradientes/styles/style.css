@@ -1,0 +1,70 @@
+div{
+    width: 300px;
+    height: 300px;
+    border: 1px #000000 solid;
+    display: inline-block;
+    margin-bottom: 5px;
+    
+}
+
+#dv1{
+    background: linear-gradient( to right, #FF0000, #FFFF00);
+}
+
+#dv2{
+    background: linear-gradient( to left, #FF0000, #FFFF00);
+}
+
+#dv3{
+    background: linear-gradient( to top, #FF0000, #FFFF00);
+}
+
+#dv4{
+    background: linear-gradient( to bottom, #FF0000, #FFFF00);
+}
+
+#dv5{
+    background: linear-gradient( 45deg, #FF0000, #FFFF00, #0000FF, #000000);
+}
+
+#dv6{
+    background: linear-gradient( 90deg, #FF0000, #FFFF00, #0000FF, #000000);
+}
+
+#dv7{
+    background: linear-gradient( 180deg, #FF0000, #FFFF00, #0000FF, #000000);
+}
+
+#dv8{
+    background: linear-gradient( 180deg, #FF0000 0%, #FFFF00 25%, #0000FF 50%);
+}
+
+#dv9{
+    background: radial-gradient( #FF0000, #FFFF00);
+}
+
+#dv10{
+    background: radial-gradient( #FF0000 0%, #FFFF00 50%);
+}
+
+#dv11{
+    width: 600px;
+    background: radial-gradient(circle, #FF0000 0%, #FFFF00 50%);
+}
+
+#dv12{
+    width: 600px;
+    background: repeating-linear-gradient(90deg, #FF0000 0%, #FFFF00 20%);
+}
+
+#dv13{
+    width: 600px;
+    background: repeating-radial-gradient(circle, #FF0000 0%, #FFFF00 20%);
+}
+
+#t1{
+    font-size: 100pt;
+    background: linear-gradient( 90deg, #FF0000 0%, #FFFF00 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
