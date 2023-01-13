@@ -1,0 +1,32 @@
+body {
+    font-size: 40px;
+    color: #FFFFFF;
+    background-color: coral;
+}
+
+ul {
+    padding: 0px;
+}
+
+div {
+    background-color: seagreen;
+}
+
+span {
+    background-color: dodgerblue;
+}
+li {
+    background-color: purple;
+}
+
+div, span, li {
+    width: 50%;
+    width: 200px;
+    height: 80px;
+    padding-top: 30px; 
+    padding-left: 30px;
+    text-align: center;
+    /*display: inline;
+    display: block;*/
+    display: inline-block;
+}
