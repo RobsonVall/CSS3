@@ -1,0 +1,57 @@
+/* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+        /*
+            Em linhas gerais...
+
+            1. regra com !important
+            2. seletores mais específicos
+            3. Última regra processada (empate)
+        */
+
+        p{
+            background-color: #AAAAAA;
+        }
+
+        .observacao {
+            background-color: #55FF55 ;
+            border: 5px dashed #000000;
+            padding: 200px !important;
+            font-size: 40px;
+        }
+
+        p.observacao {
+            padding: 2px;
+            background: linear-gradient(to right, red, yellow)
+        }
+
+        /* https://specificity.keegan.st/ */
+        /*
+            1. Inline
+            2. ID
+            3. Classes, Pseudo-Classe, atributo
+            4. Elementos, Pseudo-Elementos
+        */
+
+        body{
+            font-size: 40px;
+        }
+
+        div{
+            background-color: #0000BB;
+            color: #FFFFFF;
+        }
+
+        div[wm-cor] {
+            background-color: darkorange;
+        }
+
+        div:hover, #unico1:hover {
+            background-color: purple;
+        }
+
+        div.estilo {
+            background-color: green;
+        }
+
+        #unico1, #unico2 {
+            background-color: #000000;
+        }
