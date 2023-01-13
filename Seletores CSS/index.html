@@ -1,42 +1,113 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS3 - Seletores CSS</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="css/tag.css">
+    <style>
+       /**{
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*.tag{
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*#aprovados {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*#aninhado > div {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*#aninhado section {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*p + ul {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*p ~ ol {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*[feira] {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*[feira*=asa] {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*span:nth-child(1) {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*section > :nth-child(odd) {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*section > :nth-child(odd), ul, p {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+       /*section > :nth-child(odd) label {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }*/
+
+        section > span:nth-of-type(2) {
+           color: #FFFF00;
+           background-color: #FF7777;
+       }
+
+    </style>
 </head>
+
 <body>
-    <h1>Seletores CSS</h1>
-    <p class="titulo">
-        Canal Fessor Bruno
-    </p>
-    <p>
-        Curso de CSS
-    </p>
-    <p>
-        www.youtube.com/canalfessorbruno
-    </p>
-
-    <h1 class="titulo">
-        Canal Fessor Bruno
-    </h1>
-    <h2>
-        Curso de CSS
-    </h2>
-    <h3>
-        www.youtube.com/canalfessorbruno
-    </h3>
-
-    <h4 class="titulo">
-        Canal Fessor Bruno
-    </h4>
-    <h5>
-        Curso de CSS
-    </h5>
-    <h6>
-        www.youtube.com/canalfessorbruno
-    </h6>
+    <div class='tag'>
+        <div class='tag'>
+            <p class='tag'>1</p>
+            <ul class='tag' feira='casa'>
+                <li>Arroz</li>
+                <li>Feijão</li>
+            </ul>
+            <ul class='tag' feira='escritorio empresa'>
+                <li>Café</li>
+                <li>Água</li>
+            </ul>
+            <ol id='aprovados' class='tag'>
+                <li>Maria</li>
+                <li>Pedro</li>
+                <li>Ana</li>
+            </ol>
+            <div id='aninhado' class='tag'>
+                <div class="tag">
+                    <section class='tag nolabel'>
+                        <span class='tag'>1</span>
+                        <p class='tag'>2</p>
+                        <span class='tag'>3</span>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/tag.js"></script>
 </body>
+
 </html>
