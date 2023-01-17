@@ -1,0 +1,15 @@
+/*@font-face {
+    font-family: FontTeste;
+    src: url(../fonts/MANETOB.TTF);
+}*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');*/
+
+p{
+    font-family: Arial, Helvetica, sans-serif; /* tipo de Fonte*/
+    font-style: italic; /*Estilo da Fonte: ooções = italic e oblique (outro tipo de italico)*/
+    font-size: 30px; /* Tamanho da Fonte*/
+    font-weight: bold; /* Determina o peso da fonte: bold (negrito) - bolder (negrito mais forte) - lighter (retira o negrito*/
+    font-variant: normal; /* Tudo em maiusculo sendo que as primeiras letras maiores - opções: small-caps e normal*/
+    
+}
