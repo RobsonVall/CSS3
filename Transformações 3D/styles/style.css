@@ -1,0 +1,19 @@
+
+body {
+    perspective: 800px;
+}
+
+#dv1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+
+   /* transform: rotateY(0deg);*/
+    /*transform: translateZ(200px);*/
+
+    backface-visibility: visible;
+    transform: translate(200px, 200px);
+    transform-origin: 200px 200px;
+    
+
+}
