@@ -1,0 +1,20 @@
+a{
+    color: #FFFFFF;
+    background-color: #000066;
+    text-decoration: none;
+    font-size: 20px;
+    /*display: table-cell;*/
+    padding: 20px;
+}
+
+
+a:link, a:visited, a:active{
+  /*Links não visitados, Links já visitados, Links que estão sendo visitados*/
+    
+}
+
+a:hover{
+    /*Como os Links serão mostrados quando o mouse passar em cima*/
+    color: #FF0000;
+    background-color: #8888FF;
+}
